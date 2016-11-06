@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5784058E80131FDB2DB7ED7E /* libPods-Cabe No Carrinho.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 076169A427FA7A3EB8A10354 /* libPods-Cabe No Carrinho.a */; };
+		C53D1FEF1DCF5B3300C094E2 /* UIView+Rounded.m in Sources */ = {isa = PBXBuildFile; fileRef = C53D1FEE1DCF5B3300C094E2 /* UIView+Rounded.m */; };
+		C57D15241DCF580400A488DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D15231DCF580400A488DF /* main.m */; };
+		C57D15271DCF580400A488DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D15261DCF580400A488DF /* AppDelegate.m */; };
+		C57D152D1DCF580400A488DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C57D152B1DCF580400A488DF /* Main.storyboard */; };
+		C57D15301DCF580400A488DF /* Cabe_No_Carrinho.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C57D152E1DCF580400A488DF /* Cabe_No_Carrinho.xcdatamodeld */; };
+		C57D15321DCF580400A488DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C57D15311DCF580400A488DF /* Assets.xcassets */; };
+		C57D15351DCF580400A488DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C57D15331DCF580400A488DF /* LaunchScreen.storyboard */; };
+		C57D155A1DCF589C00A488DF /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D154B1DCF589C00A488DF /* APIManager.m */; };
+		C57D155B1DCF589C00A488DF /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D154C1DCF589C00A488DF /* BaseViewController.m */; };
+		C57D155C1DCF589C00A488DF /* ChecklistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D154D1DCF589C00A488DF /* ChecklistViewController.m */; };
+		C57D155D1DCF589C00A488DF /* CreateOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D154E1DCF589C00A488DF /* CreateOrderViewController.m */; };
+		C57D155E1DCF589C00A488DF /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D154F1DCF589C00A488DF /* Item.m */; };
+		C57D155F1DCF589C00A488DF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D15501DCF589C00A488DF /* MainViewController.m */; };
+		C57D15601DCF589C00A488DF /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D15511DCF589C00A488DF /* Order.m */; };
+		C57D15611DCF589C00A488DF /* OrderBoughtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D15521DCF589C00A488DF /* OrderBoughtViewController.m */; };
+		C57D15621DCF589C00A488DF /* OrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D15531DCF589C00A488DF /* OrderCell.m */; };
+		C57D15631DCF589C00A488DF /* OrderConfirmedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D15541DCF589C00A488DF /* OrderConfirmedViewController.m */; };
+		C57D15641DCF589C00A488DF /* OrderDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D15551DCF589C00A488DF /* OrderDetailsViewController.m */; };
+		C57D15651DCF589C00A488DF /* OrdersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D15561DCF589C00A488DF /* OrdersViewController.m */; };
+		C57D15661DCF589C00A488DF /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D15571DCF589C00A488DF /* Product.m */; };
+		C57D15671DCF589C00A488DF /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D15581DCF589C00A488DF /* ProductCell.m */; };
+		C57D15681DCF589C00A488DF /* ReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D15591DCF589C00A488DF /* ReviewViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		076169A427FA7A3EB8A10354 /* libPods-Cabe No Carrinho.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cabe No Carrinho.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39CC7B1D076E3DC0A7CA562E /* Pods-Cabe No Carrinho.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cabe No Carrinho.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cabe No Carrinho/Pods-Cabe No Carrinho.debug.xcconfig"; sourceTree = "<group>"; };
+		418E06ED6FAA3BBF72CBC1DB /* Pods-Cabe No Carrinho.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cabe No Carrinho.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cabe No Carrinho/Pods-Cabe No Carrinho.release.xcconfig"; sourceTree = "<group>"; };
+		C53D1FED1DCF5B3300C094E2 /* UIView+Rounded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Rounded.h"; sourceTree = "<group>"; };
+		C53D1FEE1DCF5B3300C094E2 /* UIView+Rounded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Rounded.m"; sourceTree = "<group>"; };
+		C57D151F1DCF580400A488DF /* Cabe No Carrinho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cabe No Carrinho.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57D15231DCF580400A488DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C57D15251DCF580400A488DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C57D15261DCF580400A488DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C57D152C1DCF580400A488DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C57D152F1DCF580400A488DF /* Cabe_No_Carrinho.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cabe_No_Carrinho.xcdatamodel; sourceTree = "<group>"; };
+		C57D15311DCF580400A488DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C57D15341DCF580400A488DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C57D15361DCF580400A488DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C57D153C1DCF589C00A488DF /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		C57D153D1DCF589C00A488DF /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		C57D153E1DCF589C00A488DF /* ChecklistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChecklistViewController.h; sourceTree = "<group>"; };
+		C57D153F1DCF589C00A488DF /* CreateOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateOrderViewController.h; sourceTree = "<group>"; };
+		C57D15401DCF589C00A488DF /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		C57D15411DCF589C00A488DF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C57D15421DCF589C00A488DF /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		C57D15431DCF589C00A488DF /* OrderBoughtViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderBoughtViewController.h; sourceTree = "<group>"; };
+		C57D15441DCF589C00A488DF /* OrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderCell.h; sourceTree = "<group>"; };
+		C57D15451DCF589C00A488DF /* OrderConfirmedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderConfirmedViewController.h; sourceTree = "<group>"; };
+		C57D15461DCF589C00A488DF /* OrderDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderDetailsViewController.h; sourceTree = "<group>"; };
+		C57D15471DCF589C00A488DF /* OrdersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrdersViewController.h; sourceTree = "<group>"; };
+		C57D15481DCF589C00A488DF /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		C57D15491DCF589C00A488DF /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		C57D154A1DCF589C00A488DF /* ReviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviewViewController.h; sourceTree = "<group>"; };
+		C57D154B1DCF589C00A488DF /* APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
+		C57D154C1DCF589C00A488DF /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		C57D154D1DCF589C00A488DF /* ChecklistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChecklistViewController.m; sourceTree = "<group>"; };
+		C57D154E1DCF589C00A488DF /* CreateOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateOrderViewController.m; sourceTree = "<group>"; };
+		C57D154F1DCF589C00A488DF /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		C57D15501DCF589C00A488DF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C57D15511DCF589C00A488DF /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		C57D15521DCF589C00A488DF /* OrderBoughtViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderBoughtViewController.m; sourceTree = "<group>"; };
+		C57D15531DCF589C00A488DF /* OrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderCell.m; sourceTree = "<group>"; };
+		C57D15541DCF589C00A488DF /* OrderConfirmedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderConfirmedViewController.m; sourceTree = "<group>"; };
+		C57D15551DCF589C00A488DF /* OrderDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderDetailsViewController.m; sourceTree = "<group>"; };
+		C57D15561DCF589C00A488DF /* OrdersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrdersViewController.m; sourceTree = "<group>"; };
+		C57D15571DCF589C00A488DF /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		C57D15581DCF589C00A488DF /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
+		C57D15591DCF589C00A488DF /* ReviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviewViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C57D151C1DCF580300A488DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5784058E80131FDB2DB7ED7E /* libPods-Cabe No Carrinho.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91478CE5DB9C1EFC2743023A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				076169A427FA7A3EB8A10354 /* libPods-Cabe No Carrinho.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C53D1FEC1DCF5B3300C094E2 /* IBInspectables */ = {
+			isa = PBXGroup;
+			children = (
+				C53D1FED1DCF5B3300C094E2 /* UIView+Rounded.h */,
+				C53D1FEE1DCF5B3300C094E2 /* UIView+Rounded.m */,
+			);
+			name = IBInspectables;
+			path = ../../../ChatDeck/ChatDeck/View/IBInspectables;
+			sourceTree = "<group>";
+		};
+		C57D15161DCF580300A488DF = {
+			isa = PBXGroup;
+			children = (
+				C57D15211DCF580400A488DF /* Cabe No Carrinho */,
+				C57D15201DCF580400A488DF /* Products */,
+				F130F6AE163A366DC51F85D1 /* Pods */,
+				91478CE5DB9C1EFC2743023A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C57D15201DCF580400A488DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C57D151F1DCF580400A488DF /* Cabe No Carrinho.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C57D15211DCF580400A488DF /* Cabe No Carrinho */ = {
+			isa = PBXGroup;
+			children = (
+				C57D152B1DCF580400A488DF /* Main.storyboard */,
+				C57D15331DCF580400A488DF /* LaunchScreen.storyboard */,
+				C57D15311DCF580400A488DF /* Assets.xcassets */,
+				C57D156D1DCF58E800A488DF /* View */,
+				C57D156C1DCF58DA00A488DF /* Controller */,
+				C57D156A1DCF58C300A488DF /* Business */,
+				C57D15691DCF58B700A488DF /* Model */,
+				C57D15251DCF580400A488DF /* AppDelegate.h */,
+				C57D15261DCF580400A488DF /* AppDelegate.m */,
+				C57D15361DCF580400A488DF /* Info.plist */,
+				C57D152E1DCF580400A488DF /* Cabe_No_Carrinho.xcdatamodeld */,
+				C57D15221DCF580400A488DF /* Supporting Files */,
+			);
+			path = "Cabe No Carrinho";
+			sourceTree = "<group>";
+		};
+		C57D15221DCF580400A488DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C57D15231DCF580400A488DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C57D15691DCF58B700A488DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C57D15401DCF589C00A488DF /* Item.h */,
+				C57D154F1DCF589C00A488DF /* Item.m */,
+				C57D15421DCF589C00A488DF /* Order.h */,
+				C57D15511DCF589C00A488DF /* Order.m */,
+				C57D15481DCF589C00A488DF /* Product.h */,
+				C57D15571DCF589C00A488DF /* Product.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C57D156A1DCF58C300A488DF /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				C57D153C1DCF589C00A488DF /* APIManager.h */,
+				C57D154B1DCF589C00A488DF /* APIManager.m */,
+			);
+			name = Business;
+			sourceTree = "<group>";
+		};
+		C57D156B1DCF58CA00A488DF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C57D153D1DCF589C00A488DF /* BaseViewController.h */,
+				C57D154C1DCF589C00A488DF /* BaseViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		C57D156C1DCF58DA00A488DF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C57D156B1DCF58CA00A488DF /* Base */,
+				C57D156E1DCF593B00A488DF /* Requester */,
+				C57D156F1DCF594900A488DF /* Buyer */,
+				C57D15411DCF589C00A488DF /* MainViewController.h */,
+				C57D15501DCF589C00A488DF /* MainViewController.m */,
+				C57D154A1DCF589C00A488DF /* ReviewViewController.h */,
+				C57D15591DCF589C00A488DF /* ReviewViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C57D156D1DCF58E800A488DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C53D1FEC1DCF5B3300C094E2 /* IBInspectables */,
+				C57D15441DCF589C00A488DF /* OrderCell.h */,
+				C57D15531DCF589C00A488DF /* OrderCell.m */,
+				C57D15491DCF589C00A488DF /* ProductCell.h */,
+				C57D15581DCF589C00A488DF /* ProductCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C57D156E1DCF593B00A488DF /* Requester */ = {
+			isa = PBXGroup;
+			children = (
+				C57D153F1DCF589C00A488DF /* CreateOrderViewController.h */,
+				C57D154E1DCF589C00A488DF /* CreateOrderViewController.m */,
+				C57D15461DCF589C00A488DF /* OrderDetailsViewController.h */,
+				C57D15551DCF589C00A488DF /* OrderDetailsViewController.m */,
+				C57D15451DCF589C00A488DF /* OrderConfirmedViewController.h */,
+				C57D15541DCF589C00A488DF /* OrderConfirmedViewController.m */,
+			);
+			name = Requester;
+			sourceTree = "<group>";
+		};
+		C57D156F1DCF594900A488DF /* Buyer */ = {
+			isa = PBXGroup;
+			children = (
+				C57D15471DCF589C00A488DF /* OrdersViewController.h */,
+				C57D15561DCF589C00A488DF /* OrdersViewController.m */,
+				C57D153E1DCF589C00A488DF /* ChecklistViewController.h */,
+				C57D154D1DCF589C00A488DF /* ChecklistViewController.m */,
+				C57D15431DCF589C00A488DF /* OrderBoughtViewController.h */,
+				C57D15521DCF589C00A488DF /* OrderBoughtViewController.m */,
+			);
+			name = Buyer;
+			sourceTree = "<group>";
+		};
+		F130F6AE163A366DC51F85D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39CC7B1D076E3DC0A7CA562E /* Pods-Cabe No Carrinho.debug.xcconfig */,
+				418E06ED6FAA3BBF72CBC1DB /* Pods-Cabe No Carrinho.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C57D151E1DCF580300A488DF /* Cabe No Carrinho */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C57D15391DCF580400A488DF /* Build configuration list for PBXNativeTarget "Cabe No Carrinho" */;
+			buildPhases = (
+				CE95A3ADCE42763609481F09 /* [CP] Check Pods Manifest.lock */,
+				C57D151B1DCF580300A488DF /* Sources */,
+				C57D151C1DCF580300A488DF /* Frameworks */,
+				C57D151D1DCF580300A488DF /* Resources */,
+				03E5721947503E8489222E6D /* [CP] Embed Pods Frameworks */,
+				62B3CAD58F4BCD9415BE1172 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cabe No Carrinho";
+			productName = "Cabe No Carrinho";
+			productReference = C57D151F1DCF580400A488DF /* Cabe No Carrinho.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C57D15171DCF580300A488DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Roger Oba";
+				TargetAttributes = {
+					C57D151E1DCF580300A488DF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9M39ENBSMH;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C57D151A1DCF580300A488DF /* Build configuration list for PBXProject "Cabe No Carrinho" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C57D15161DCF580300A488DF;
+			productRefGroup = C57D15201DCF580400A488DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C57D151E1DCF580300A488DF /* Cabe No Carrinho */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C57D151D1DCF580300A488DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57D15351DCF580400A488DF /* LaunchScreen.storyboard in Resources */,
+				C57D15321DCF580400A488DF /* Assets.xcassets in Resources */,
+				C57D152D1DCF580400A488DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03E5721947503E8489222E6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cabe No Carrinho/Pods-Cabe No Carrinho-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62B3CAD58F4BCD9415BE1172 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cabe No Carrinho/Pods-Cabe No Carrinho-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE95A3ADCE42763609481F09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C57D151B1DCF580300A488DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57D155E1DCF589C00A488DF /* Item.m in Sources */,
+				C57D155A1DCF589C00A488DF /* APIManager.m in Sources */,
+				C57D155C1DCF589C00A488DF /* ChecklistViewController.m in Sources */,
+				C57D155B1DCF589C00A488DF /* BaseViewController.m in Sources */,
+				C57D15641DCF589C00A488DF /* OrderDetailsViewController.m in Sources */,
+				C57D15661DCF589C00A488DF /* Product.m in Sources */,
+				C57D15611DCF589C00A488DF /* OrderBoughtViewController.m in Sources */,
+				C57D155F1DCF589C00A488DF /* MainViewController.m in Sources */,
+				C57D15681DCF589C00A488DF /* ReviewViewController.m in Sources */,
+				C53D1FEF1DCF5B3300C094E2 /* UIView+Rounded.m in Sources */,
+				C57D15651DCF589C00A488DF /* OrdersViewController.m in Sources */,
+				C57D15621DCF589C00A488DF /* OrderCell.m in Sources */,
+				C57D15631DCF589C00A488DF /* OrderConfirmedViewController.m in Sources */,
+				C57D15301DCF580400A488DF /* Cabe_No_Carrinho.xcdatamodeld in Sources */,
+				C57D15601DCF589C00A488DF /* Order.m in Sources */,
+				C57D15271DCF580400A488DF /* AppDelegate.m in Sources */,
+				C57D155D1DCF589C00A488DF /* CreateOrderViewController.m in Sources */,
+				C57D15671DCF589C00A488DF /* ProductCell.m in Sources */,
+				C57D15241DCF580400A488DF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C57D152B1DCF580400A488DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C57D152C1DCF580400A488DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C57D15331DCF580400A488DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C57D15341DCF580400A488DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C57D15371DCF580400A488DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C57D15381DCF580400A488DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C57D153A1DCF580400A488DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39CC7B1D076E3DC0A7CA562E /* Pods-Cabe No Carrinho.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9M39ENBSMH;
+				INFOPLIST_FILE = "Cabe No Carrinho/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rogeroba.CabeNoCarrinho;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C57D153B1DCF580400A488DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 418E06ED6FAA3BBF72CBC1DB /* Pods-Cabe No Carrinho.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9M39ENBSMH;
+				INFOPLIST_FILE = "Cabe No Carrinho/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rogeroba.CabeNoCarrinho;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C57D151A1DCF580300A488DF /* Build configuration list for PBXProject "Cabe No Carrinho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C57D15371DCF580400A488DF /* Debug */,
+				C57D15381DCF580400A488DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C57D15391DCF580400A488DF /* Build configuration list for PBXNativeTarget "Cabe No Carrinho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C57D153A1DCF580400A488DF /* Debug */,
+				C57D153B1DCF580400A488DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C57D152E1DCF580400A488DF /* Cabe_No_Carrinho.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C57D152F1DCF580400A488DF /* Cabe_No_Carrinho.xcdatamodel */,
+			);
+			currentVersion = C57D152F1DCF580400A488DF /* Cabe_No_Carrinho.xcdatamodel */;
+			path = Cabe_No_Carrinho.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C57D15171DCF580300A488DF /* Project object */;
+}

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7B594DF7B03A7BE8789374ED9633700464309E7A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "77FA86D1E843D41F68905FAA11F4FCA8DB807F40" : 9223372036854775807,
+    "7B594DF7B03A7BE8789374ED9633700464309E7A" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A14EDE51-514E-47C2-9F80-DD1BA8760ECE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "77FA86D1E843D41F68905FAA11F4FCA8DB807F40" : "ChatDeck\/",
+    "7B594DF7B03A7BE8789374ED9633700464309E7A" : "StartupWeekend2016\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Cabe No Carrinho",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Cabe No Carrinho\/Cabe No Carrinho.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rogerluan\/ChatDeck.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "77FA86D1E843D41F68905FAA11F4FCA8DB807F40"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rogerluan\/StartupWeekend2016.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7B594DF7B03A7BE8789374ED9633700464309E7A"
+    }
+  ]
+}
