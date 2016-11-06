@@ -16,5 +16,7 @@
 @property (strong, nonatomic) Product *product;
 
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;
+- (NSDictionary *)jsonDictionary;
+- (instancetype)initWithProduct:(Product *)product;
 
 @end

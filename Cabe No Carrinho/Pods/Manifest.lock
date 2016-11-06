@@ -1,12 +1,15 @@
 PODS:
   - SVProgressHUD (2.0.3)
+  - UIFloatLabelTextField (1.2.5)
 
 DEPENDENCIES:
   - SVProgressHUD
+  - UIFloatLabelTextField
 
 SPEC CHECKSUMS:
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  UIFloatLabelTextField: b01b1bcea4b4fd617e80744f3cfd06e1d1b7e75e
 
-PODFILE CHECKSUM: 9aefdf9bf1f634e8abb1babf6986bbe5d3646f59
+PODFILE CHECKSUM: 176ed8ee0a56590f3f001d127575b314914e5116
 
 COCOAPODS: 1.1.0.rc.3

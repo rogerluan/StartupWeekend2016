@@ -34,6 +34,13 @@ typedef void(^ImageCompletionBlock)(NSError * _Nullable error, UIImage * _Nullab
  */
 typedef void(^OrderItemsCompletionBlock)(NSError * _Nullable error, NSArray * _Nullable items);
 
+/**
+ *  Generic completion block
+ *
+ *  @param error    NSError containing any error that may occur.
+ */
+typedef void(^GenericCompletionBlock)(NSError * _Nullable error);
+
 @interface APIManager : NSObject
 
 /**
@@ -66,5 +73,12 @@ typedef void(^OrderItemsCompletionBlock)(NSError * _Nullable error, NSArray * _N
  */
 - (void)fetchItemsFromOrder:(nonnull Order*)order withCompletion:(nonnull OrderItemsCompletionBlock)completion;
 
+/**
+ *  Creates an order in the webservice.
+ *
+ *  @param order      The order that is going to be saved.
+ *  @param completion The completion block to call when the request completes.
+ */
+- (void)createOrder:(nonnull Order *)order completion:(nonnull GenericCompletionBlock)completion;
 
 @end

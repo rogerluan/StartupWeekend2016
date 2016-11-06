@@ -83,4 +83,10 @@ static NSString * const OrderCellIdentifier = @"OrderCellIdentifier";
     }
 }
 
+- (IBAction)dismissButton:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+
+
 @end

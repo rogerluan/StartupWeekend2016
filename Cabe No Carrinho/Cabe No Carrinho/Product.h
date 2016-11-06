@@ -11,6 +11,7 @@
 
 @interface Product : NSObject
 
+@property (strong, nonatomic) NSString *uuid;
 @property (strong, nonatomic) NSString *name;
 @property (strong, nonatomic) UIImage *image;
 @property (strong, nonatomic) NSURL *url;

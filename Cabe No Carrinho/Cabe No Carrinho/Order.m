@@ -29,4 +29,18 @@
     return self;
 }
 
+- (NSDictionary *)jsonDictionary {
+    
+    NSMutableArray *items = [NSMutableArray new];
+    for (Item *item in self.items) {
+        [items addObject:[item jsonDictionary]];
+    }
+    
+    return @{@"name":self.identifier,
+             @"address":self.address,
+             @"reward":[NSNumber numberWithInteger:self.reward],
+             @"status":@0,
+             @"items":[items copy]};
+}
+
 @end

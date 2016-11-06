@@ -7,83 +7,119 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		068B05D66BD66673230BA44F472CFEBD /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C80D8A3D824F9A8BECF1041F91261A4 /* SVProgressAnimatedView.m */; };
-		0AA5C57D6E2F88A0C2AA17615165DEE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
-		160840BC669D4B517876158AA32A56F2 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A374AB1310EA4B32513CEB3F350671 /* SVRadialGradientLayer.m */; };
-		383ED067B3ADC02AA22A003BB2D5D969 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6073EEDABEA90F4218E48202444AB6 /* SVProgressHUD-dummy.m */; };
-		46B04977DB002BD41BC6B977764E512C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */; };
-		578719DFC3FB82624950A0735244ACA9 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = C447657581C0A5726D1B490667A418D4 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60B61193FE8347EB2166352DEABB50DB /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C68F19C7FDB89739A12A754AC192B9 /* SVIndefiniteAnimatedView.m */; };
-		6F90A5DFABC813B14881E2DAE53BD495 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 68F7D46BED1E968333C3A6BF1D08EF35 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9CB9A7EC927516327185B458DA60A47C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
-		A60192DF2700B812EC87C0F7934A2ED6 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D3444AE0273523AC57BAC6A7EBE004B0 /* SVProgressHUD.m */; };
-		AFC0F0C388379E79F3192EF3BB0237A3 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = DD6F6957AD861C2D16D4AAF6524973A8 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0B3AC59D9BAE3EAB86B09973226E8DF /* Pods-Cabe No Carrinho-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 416AB4FE575C6B360C0D6D86CE45CE5E /* Pods-Cabe No Carrinho-dummy.m */; };
-		CFF1243D92A104A5269E46E0B7534A40 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = DBAD9287DEE246626CE463AB766658E4 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		014DD85DB3967E1E540E1357322ED14F /* UIFloatLabelTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A4745B59E399937D1BD3485B756B2EE /* UIFloatLabelTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03360BD50BC9B5CB86A790BF7A14F052 /* UIFloatLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2951A520DC15699F806D0CAE3034AEB8 /* UIFloatLabelTextField-dummy.m */; };
+		130D461C3512BA308E257977FFA42B63 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3517BCA3E5FA853CC07F3FFF01117D /* SVProgressHUD-dummy.m */; };
+		17903F58EDB749E9E629DF50926E689F /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E417B12F6FE84A5EACA3780735C9E5 /* SVRadialGradientLayer.m */; };
+		1E1DF9A91C17D75D6502F6562D7FE64B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		32E7ABE1709C5B94CA33109298F72958 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 311741094E1F54687831E49EBA5AA086 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F73F2D50AA9FE25BB10B4E2583AAAE0 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 695EC1582820024980DA6005D8674AF3 /* SVIndefiniteAnimatedView.m */; };
+		4E633456C85A2718E68B04F3C31DEA09 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78B42FAF98DC4AECD16B7DE374B7E643 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DDD6D0E524EB04023837AA965620A2E /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D04C572211CCF4DDB6A6B031422D906 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94E5663D3D301477886B8704F0B1E456 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6395B7F2DF9501F73B2048D22B005983 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95C2D9A54BACB3E5F5DE40E7CF60A61F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		B0B4385F48BCE3D77F743EF7FBB05439 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */; };
+		BCDE263979039EEED396E1CAE9DB4D90 /* Pods-Cabe No Carrinho-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 416AB4FE575C6B360C0D6D86CE45CE5E /* Pods-Cabe No Carrinho-dummy.m */; };
+		CD320DDDE47A9800219EBE4E44646602 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		D7278A59121AA601B4950A023761E8FF /* UIFloatLabelTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0B6CAEF080C8A0D1576193464D100F /* UIFloatLabelTextField.m */; };
+		E19372529F8DB68121467F5476E55191 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FB0E68A9F2685AC465C2FD985D3D18 /* SVProgressAnimatedView.m */; };
+		EBB3A98737A8E52F8AEFEEF402631A20 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EE599E7F8B72A5B9442E915BF5F1ED /* SVProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		81A97A9677CBCA2D84B27A66E9A9ED89 /* PBXContainerItemProxy */ = {
+		0A6F6C57ED4A641158C84E9474EE6452 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CF613B9E5BC750AAB25B2BE7B4808B9C;
+			remoteGlobalIDString = 1C2D031A172C0D5185F6446CF40469BB;
+			remoteInfo = UIFloatLabelTextField;
+		};
+		EBF189425169F4947CA49E8D128A883A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D26C08BC2A51BF7ED46A643EE24DEAB1;
 			remoteInfo = SVProgressHUD;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2D619B9ACB8981FDEB8B6C16926AD452 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		039A6EA014B829E0232CB8F752610677 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		2951A520DC15699F806D0CAE3034AEB8 /* UIFloatLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIFloatLabelTextField-dummy.m"; sourceTree = "<group>"; };
+		311741094E1F54687831E49EBA5AA086 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		33FB0E68A9F2685AC465C2FD985D3D18 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
 		349C18F4002693F7B314BE62F49DDB2A /* Pods-Cabe No Carrinho.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cabe No Carrinho.debug.xcconfig"; sourceTree = "<group>"; };
-		35F5470B8EF6CFB6F461ACCCB2160B0B /* libPods-Cabe No Carrinho.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cabe No Carrinho.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3D0B6CAEF080C8A0D1576193464D100F /* UIFloatLabelTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIFloatLabelTextField.m; path = UIFloatLabelTextField/UIFloatLabelTextField.m; sourceTree = "<group>"; };
 		416AB4FE575C6B360C0D6D86CE45CE5E /* Pods-Cabe No Carrinho-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cabe No Carrinho-dummy.m"; sourceTree = "<group>"; };
-		64C68F19C7FDB89739A12A754AC192B9 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		68F7D46BED1E968333C3A6BF1D08EF35 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
-		6A6073EEDABEA90F4218E48202444AB6 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		7639CFC0D8B53A181379B3D35CF6B409 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
-		86E3DC48E40F8C3C553801CB0080D74D /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		4FB113C7878968F169780B32AE449DCE /* libPods-Cabe No Carrinho.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cabe No Carrinho.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4745B59E399937D1BD3485B756B2EE /* UIFloatLabelTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIFloatLabelTextField.h; path = UIFloatLabelTextField/UIFloatLabelTextField.h; sourceTree = "<group>"; };
+		61EE599E7F8B72A5B9442E915BF5F1ED /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		6395B7F2DF9501F73B2048D22B005983 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		695EC1582820024980DA6005D8674AF3 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		6D04C572211CCF4DDB6A6B031422D906 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		78B42FAF98DC4AECD16B7DE374B7E643 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		7B169B0009D56593EC0999265C2B8EA6 /* libUIFloatLabelTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUIFloatLabelTextField.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97CC626D060A8989CB034137D54DC5B3 /* Pods-Cabe No Carrinho-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cabe No Carrinho-acknowledgements.plist"; sourceTree = "<group>"; };
+		98C9F78FBD60F8D77A695A97B8619994 /* UIFloatLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFloatLabelTextField-prefix.pch"; sourceTree = "<group>"; };
 		99B272DC2CA7939D908ABBC9C83F01E8 /* Pods-Cabe No Carrinho-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cabe No Carrinho-resources.sh"; sourceTree = "<group>"; };
-		9C80D8A3D824F9A8BECF1041F91261A4 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
 		A2408722A153A370E556CCD432C37ABB /* Pods-Cabe No Carrinho-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cabe No Carrinho-frameworks.sh"; sourceTree = "<group>"; };
 		B5A8A96DE734D7358E193CABD85F6C98 /* Pods-Cabe No Carrinho-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cabe No Carrinho-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA29693FE26208193A6A6EF1546A9108 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
 		BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		C447657581C0A5726D1B490667A418D4 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		BF3517BCA3E5FA853CC07F3FFF01117D /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		C4E417B12F6FE84A5EACA3780735C9E5 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		C9857A64D86F9986DC38E64B46424BC2 /* UIFloatLabelTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIFloatLabelTextField.xcconfig; sourceTree = "<group>"; };
 		D1B628C9FD2DE778ED8305F7D38F5AF0 /* Pods-Cabe No Carrinho.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cabe No Carrinho.release.xcconfig"; sourceTree = "<group>"; };
-		D3444AE0273523AC57BAC6A7EBE004B0 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
-		DBAD9287DEE246626CE463AB766658E4 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
-		DD6F6957AD861C2D16D4AAF6524973A8 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		E0F041F087F05032189501FE7E4CBB1E /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6A374AB1310EA4B32513CEB3F350671 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		F7FD0FBFD0F3402F583D2F5E0EBC1AA2 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B263C884FFFB6DC155E91336BC732D /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		91B2E0F531EA947BF756DC98437AC400 /* Frameworks */ = {
+		130D56AB5C0D9B4ADF11ADD0D04E84E1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AA5C57D6E2F88A0C2AA17615165DEE6 /* Foundation.framework in Frameworks */,
+				1E1DF9A91C17D75D6502F6562D7FE64B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D281E80BCC1509506C769F1405683049 /* Frameworks */ = {
+		40A0F53E60E054354C89BBA451AD7D5A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CB9A7EC927516327185B458DA60A47C /* Foundation.framework in Frameworks */,
-				46B04977DB002BD41BC6B977764E512C /* QuartzCore.framework in Frameworks */,
+				95C2D9A54BACB3E5F5DE40E7CF60A61F /* Foundation.framework in Frameworks */,
+				B0B4385F48BCE3D77F743EF7FBB05439 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F13809B4B5F182996E3E12772351A51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD320DDDE47A9800219EBE4E44646602 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		035CB6C836B78EB37C4E6C442FF8BB1E /* Resources */ = {
+		1D9CEB3E64C65820072DD935425258D6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2D619B9ACB8981FDEB8B6C16926AD452 /* SVProgressHUD.bundle */,
+				C9857A64D86F9986DC38E64B46424BC2 /* UIFloatLabelTextField.xcconfig */,
+				2951A520DC15699F806D0CAE3034AEB8 /* UIFloatLabelTextField-dummy.m */,
+				98C9F78FBD60F8D77A695A97B8619994 /* UIFloatLabelTextField-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIFloatLabelTextField";
+			sourceTree = "<group>";
+		};
+		1DEB9251FDACE8AD02A06CD2B94AE607 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA29693FE26208193A6A6EF1546A9108 /* SVProgressHUD.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -96,12 +132,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		74588D48F629C3D7E6B7E12AB83072D6 /* Pods */ = {
+		4BBC047C2A581AC7B1433CA3C632633F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				95EB61328BDA1070876281302DF94ACF /* SVProgressHUD */,
+				554540A5B84489981AF3F987E14426DA /* SVProgressHUD */,
+				7DA60664957190929CB05FB15427405D /* UIFloatLabelTextField */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		554540A5B84489981AF3F987E14426DA /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				6D04C572211CCF4DDB6A6B031422D906 /* SVIndefiniteAnimatedView.h */,
+				695EC1582820024980DA6005D8674AF3 /* SVIndefiniteAnimatedView.m */,
+				78B42FAF98DC4AECD16B7DE374B7E643 /* SVProgressAnimatedView.h */,
+				33FB0E68A9F2685AC465C2FD985D3D18 /* SVProgressAnimatedView.m */,
+				311741094E1F54687831E49EBA5AA086 /* SVProgressHUD.h */,
+				61EE599E7F8B72A5B9442E915BF5F1ED /* SVProgressHUD.m */,
+				6395B7F2DF9501F73B2048D22B005983 /* SVRadialGradientLayer.h */,
+				C4E417B12F6FE84A5EACA3780735C9E5 /* SVRadialGradientLayer.m */,
+				1DEB9251FDACE8AD02A06CD2B94AE607 /* Resources */,
+				F6AC5B39FEF669BD9433FC3349A4D6B1 /* Support Files */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		7DA60664957190929CB05FB15427405D /* UIFloatLabelTextField */ = {
+			isa = PBXGroup;
+			children = (
+				5A4745B59E399937D1BD3485B756B2EE /* UIFloatLabelTextField.h */,
+				3D0B6CAEF080C8A0D1576193464D100F /* UIFloatLabelTextField.m */,
+				1D9CEB3E64C65820072DD935425258D6 /* Support Files */,
+			);
+			path = UIFloatLabelTextField;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -109,47 +173,10 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				74588D48F629C3D7E6B7E12AB83072D6 /* Pods */,
-				9921E22A4FFDC87C688EED77C7244BA8 /* Products */,
+				4BBC047C2A581AC7B1433CA3C632633F /* Pods */,
+				F69F085891876A5DD3B68AA01A434E14 /* Products */,
 				D01227365B39604C3B48DC6C732E7B0A /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		95EB61328BDA1070876281302DF94ACF /* SVProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				DD6F6957AD861C2D16D4AAF6524973A8 /* SVIndefiniteAnimatedView.h */,
-				64C68F19C7FDB89739A12A754AC192B9 /* SVIndefiniteAnimatedView.m */,
-				C447657581C0A5726D1B490667A418D4 /* SVProgressAnimatedView.h */,
-				9C80D8A3D824F9A8BECF1041F91261A4 /* SVProgressAnimatedView.m */,
-				DBAD9287DEE246626CE463AB766658E4 /* SVProgressHUD.h */,
-				D3444AE0273523AC57BAC6A7EBE004B0 /* SVProgressHUD.m */,
-				68F7D46BED1E968333C3A6BF1D08EF35 /* SVRadialGradientLayer.h */,
-				E6A374AB1310EA4B32513CEB3F350671 /* SVRadialGradientLayer.m */,
-				035CB6C836B78EB37C4E6C442FF8BB1E /* Resources */,
-				BDE1D145F4A334224EB232EECAD63B61 /* Support Files */,
-			);
-			path = SVProgressHUD;
-			sourceTree = "<group>";
-		};
-		9921E22A4FFDC87C688EED77C7244BA8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				35F5470B8EF6CFB6F461ACCCB2160B0B /* libPods-Cabe No Carrinho.a */,
-				E0F041F087F05032189501FE7E4CBB1E /* libSVProgressHUD.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BDE1D145F4A334224EB232EECAD63B61 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7639CFC0D8B53A181379B3D35CF6B409 /* SVProgressHUD.xcconfig */,
-				6A6073EEDABEA90F4218E48202444AB6 /* SVProgressHUD-dummy.m */,
-				86E3DC48E40F8C3C553801CB0080D74D /* SVProgressHUD-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SVProgressHUD";
 			sourceTree = "<group>";
 		};
 		C7AB6F27FF3606F9360547F8F1977A63 /* iOS */ = {
@@ -167,6 +194,27 @@
 				F848F0C79F5D69968D145C42938A4868 /* Pods-Cabe No Carrinho */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F69F085891876A5DD3B68AA01A434E14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FB113C7878968F169780B32AE449DCE /* libPods-Cabe No Carrinho.a */,
+				F7FD0FBFD0F3402F583D2F5E0EBC1AA2 /* libSVProgressHUD.a */,
+				7B169B0009D56593EC0999265C2B8EA6 /* libUIFloatLabelTextField.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6AC5B39FEF669BD9433FC3349A4D6B1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8B263C884FFFB6DC155E91336BC732D /* SVProgressHUD.xcconfig */,
+				BF3517BCA3E5FA853CC07F3FFF01117D /* SVProgressHUD-dummy.m */,
+				039A6EA014B829E0232CB8F752610677 /* SVProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
 			sourceTree = "<group>";
 		};
 		F848F0C79F5D69968D145C42938A4868 /* Pods-Cabe No Carrinho */ = {
@@ -187,27 +235,52 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7BCAB0F9BA138A2051ABD79CD5D782E7 /* Headers */ = {
+		36241E747853F6158D5D7122A2810022 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFC0F0C388379E79F3192EF3BB0237A3 /* SVIndefiniteAnimatedView.h in Headers */,
-				578719DFC3FB82624950A0735244ACA9 /* SVProgressAnimatedView.h in Headers */,
-				CFF1243D92A104A5269E46E0B7534A40 /* SVProgressHUD.h in Headers */,
-				6F90A5DFABC813B14881E2DAE53BD495 /* SVRadialGradientLayer.h in Headers */,
+				8DDD6D0E524EB04023837AA965620A2E /* SVIndefiniteAnimatedView.h in Headers */,
+				4E633456C85A2718E68B04F3C31DEA09 /* SVProgressAnimatedView.h in Headers */,
+				32E7ABE1709C5B94CA33109298F72958 /* SVProgressHUD.h in Headers */,
+				94E5663D3D301477886B8704F0B1E456 /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F8D693DFC96F64791419FE94E864B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014DD85DB3967E1E540E1357322ED14F /* UIFloatLabelTextField.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		CF613B9E5BC750AAB25B2BE7B4808B9C /* SVProgressHUD */ = {
+		1C2D031A172C0D5185F6446CF40469BB /* UIFloatLabelTextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70C86C56300F5B1F0F30F89FCA314538 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildConfigurationList = B2EFDE802D6BCAA55373179BB33521A5 /* Build configuration list for PBXNativeTarget "UIFloatLabelTextField" */;
 			buildPhases = (
-				5DFDBEE9C61F49B0736A2BF42C6C49ED /* Sources */,
-				D281E80BCC1509506C769F1405683049 /* Frameworks */,
-				7BCAB0F9BA138A2051ABD79CD5D782E7 /* Headers */,
+				123E0F6E6C329ACA16D7A02D5B4D73B0 /* Sources */,
+				6F13809B4B5F182996E3E12772351A51 /* Frameworks */,
+				42F8D693DFC96F64791419FE94E864B6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIFloatLabelTextField;
+			productName = UIFloatLabelTextField;
+			productReference = 7B169B0009D56593EC0999265C2B8EA6 /* libUIFloatLabelTextField.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D26C08BC2A51BF7ED46A643EE24DEAB1 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9EE6910C46E9C05C6C9A737B24FAD97 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				31CA0CEE9F1938EB44013A45C338C8FB /* Sources */,
+				40A0F53E60E054354C89BBA451AD7D5A /* Frameworks */,
+				36241E747853F6158D5D7122A2810022 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -215,24 +288,25 @@
 			);
 			name = SVProgressHUD;
 			productName = SVProgressHUD;
-			productReference = E0F041F087F05032189501FE7E4CBB1E /* libSVProgressHUD.a */;
+			productReference = F7FD0FBFD0F3402F583D2F5E0EBC1AA2 /* libSVProgressHUD.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		D05F0FC9BFB7349BB0D1AA8C01777927 /* Pods-Cabe No Carrinho */ = {
+		D9372B640E5104206182DAE2A108480F /* Pods-Cabe No Carrinho */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A990B4B3658EEBC26484D350BFF9C786 /* Build configuration list for PBXNativeTarget "Pods-Cabe No Carrinho" */;
+			buildConfigurationList = 2D20564D7FF6A8328B269127E8B6ACA3 /* Build configuration list for PBXNativeTarget "Pods-Cabe No Carrinho" */;
 			buildPhases = (
-				F074DA5E6DACC27E4655DCB891F3E16D /* Sources */,
-				91B2E0F531EA947BF756DC98437AC400 /* Frameworks */,
+				B6E214FAE596CB23E4E11093507444E7 /* Sources */,
+				130D56AB5C0D9B4ADF11ADD0D04E84E1 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				930AC5823611D351C9805D1FE702A5A5 /* PBXTargetDependency */,
+				7A289CC736616B0795483C29F9EC9FA1 /* PBXTargetDependency */,
+				FFC944C374D305D624075392975BE46A /* PBXTargetDependency */,
 			);
 			name = "Pods-Cabe No Carrinho";
 			productName = "Pods-Cabe No Carrinho";
-			productReference = 35F5470B8EF6CFB6F461ACCCB2160B0B /* libPods-Cabe No Carrinho.a */;
+			productReference = 4FB113C7878968F169780B32AE449DCE /* libPods-Cabe No Carrinho.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -252,50 +326,89 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 9921E22A4FFDC87C688EED77C7244BA8 /* Products */;
+			productRefGroup = F69F085891876A5DD3B68AA01A434E14 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D05F0FC9BFB7349BB0D1AA8C01777927 /* Pods-Cabe No Carrinho */,
-				CF613B9E5BC750AAB25B2BE7B4808B9C /* SVProgressHUD */,
+				D9372B640E5104206182DAE2A108480F /* Pods-Cabe No Carrinho */,
+				D26C08BC2A51BF7ED46A643EE24DEAB1 /* SVProgressHUD */,
+				1C2D031A172C0D5185F6446CF40469BB /* UIFloatLabelTextField */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5DFDBEE9C61F49B0736A2BF42C6C49ED /* Sources */ = {
+		123E0F6E6C329ACA16D7A02D5B4D73B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60B61193FE8347EB2166352DEABB50DB /* SVIndefiniteAnimatedView.m in Sources */,
-				068B05D66BD66673230BA44F472CFEBD /* SVProgressAnimatedView.m in Sources */,
-				383ED067B3ADC02AA22A003BB2D5D969 /* SVProgressHUD-dummy.m in Sources */,
-				A60192DF2700B812EC87C0F7934A2ED6 /* SVProgressHUD.m in Sources */,
-				160840BC669D4B517876158AA32A56F2 /* SVRadialGradientLayer.m in Sources */,
+				03360BD50BC9B5CB86A790BF7A14F052 /* UIFloatLabelTextField-dummy.m in Sources */,
+				D7278A59121AA601B4950A023761E8FF /* UIFloatLabelTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F074DA5E6DACC27E4655DCB891F3E16D /* Sources */ = {
+		31CA0CEE9F1938EB44013A45C338C8FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0B3AC59D9BAE3EAB86B09973226E8DF /* Pods-Cabe No Carrinho-dummy.m in Sources */,
+				3F73F2D50AA9FE25BB10B4E2583AAAE0 /* SVIndefiniteAnimatedView.m in Sources */,
+				E19372529F8DB68121467F5476E55191 /* SVProgressAnimatedView.m in Sources */,
+				130D461C3512BA308E257977FFA42B63 /* SVProgressHUD-dummy.m in Sources */,
+				EBB3A98737A8E52F8AEFEEF402631A20 /* SVProgressHUD.m in Sources */,
+				17903F58EDB749E9E629DF50926E689F /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E214FAE596CB23E4E11093507444E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDE263979039EEED396E1CAE9DB4D90 /* Pods-Cabe No Carrinho-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		930AC5823611D351C9805D1FE702A5A5 /* PBXTargetDependency */ = {
+		7A289CC736616B0795483C29F9EC9FA1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SVProgressHUD;
-			target = CF613B9E5BC750AAB25B2BE7B4808B9C /* SVProgressHUD */;
-			targetProxy = 81A97A9677CBCA2D84B27A66E9A9ED89 /* PBXContainerItemProxy */;
+			target = D26C08BC2A51BF7ED46A643EE24DEAB1 /* SVProgressHUD */;
+			targetProxy = EBF189425169F4947CA49E8D128A883A /* PBXContainerItemProxy */;
+		};
+		FFC944C374D305D624075392975BE46A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIFloatLabelTextField;
+			target = 1C2D031A172C0D5185F6446CF40469BB /* UIFloatLabelTextField */;
+			targetProxy = 0A6F6C57ED4A641158C84E9474EE6452 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		27F0935D6D75CE7D95563B0669113C43 /* Debug */ = {
+		050408201D7902BE8DDDCBBE7642524C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1B628C9FD2DE778ED8305F7D38F5AF0 /* Pods-Cabe No Carrinho.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		09A7A40322477A7FC2BBCBA01056F2F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 349C18F4002693F7B314BE62F49DDB2A /* Pods-Cabe No Carrinho.debug.xcconfig */;
 			buildSettings = {
@@ -313,6 +426,52 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2324C4E8A1DA2C0F9306A18CC891DAF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9857A64D86F9986DC38E64B46424BC2 /* UIFloatLabelTextField.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIFloatLabelTextField/UIFloatLabelTextField-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		390A1AE199BC07A10983F3D8EF0B8500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8B263C884FFFB6DC155E91336BC732D /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -362,9 +521,9 @@
 			};
 			name = Debug;
 		};
-		B18E98EFDCC3932567EAF92369B912A1 /* Release */ = {
+		B4CB83E1DC2F888E29AFC5807D562177 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7639CFC0D8B53A181379B3D35CF6B409 /* SVProgressHUD.xcconfig */;
+			baseConfigurationReference = F8B263C884FFFB6DC155E91336BC732D /* SVProgressHUD.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -425,9 +584,9 @@
 			};
 			name = Release;
 		};
-		F2EF14CA6388570C3F03E594010A5E93 /* Debug */ = {
+		CBA31FEAA63A28F86DACADE771D16DC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7639CFC0D8B53A181379B3D35CF6B409 /* SVProgressHUD.xcconfig */;
+			baseConfigurationReference = C9857A64D86F9986DC38E64B46424BC2 /* UIFloatLabelTextField.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -435,8 +594,8 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				GCC_PREFIX_HEADER = "Target Support Files/UIFloatLabelTextField/UIFloatLabelTextField-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -448,32 +607,18 @@
 			};
 			name = Debug;
 		};
-		FD98B24D044DEDE93A68068EE2D2D46D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1B628C9FD2DE778ED8305F7D38F5AF0 /* Pods-Cabe No Carrinho.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2D20564D7FF6A8328B269127E8B6ACA3 /* Build configuration list for PBXNativeTarget "Pods-Cabe No Carrinho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A7A40322477A7FC2BBCBA01056F2F7 /* Debug */,
+				050408201D7902BE8DDDCBBE7642524C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -483,20 +628,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70C86C56300F5B1F0F30F89FCA314538 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+		B2EFDE802D6BCAA55373179BB33521A5 /* Build configuration list for PBXNativeTarget "UIFloatLabelTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F2EF14CA6388570C3F03E594010A5E93 /* Debug */,
-				B18E98EFDCC3932567EAF92369B912A1 /* Release */,
+				CBA31FEAA63A28F86DACADE771D16DC3 /* Debug */,
+				2324C4E8A1DA2C0F9306A18CC891DAF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A990B4B3658EEBC26484D350BFF9C786 /* Build configuration list for PBXNativeTarget "Pods-Cabe No Carrinho" */ = {
+		D9EE6910C46E9C05C6C9A737B24FAD97 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				27F0935D6D75CE7D95563B0669113C43 /* Debug */,
-				FD98B24D044DEDE93A68068EE2D2D46D /* Release */,
+				390A1AE199BC07A10983F3D8EF0B8500 /* Debug */,
+				B4CB83E1DC2F888E29AFC5807D562177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

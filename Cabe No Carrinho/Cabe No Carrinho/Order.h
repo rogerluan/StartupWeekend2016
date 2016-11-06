@@ -26,5 +26,6 @@ typedef NS_ENUM(NSUInteger, OrderStatus) {
 @property (strong, nonatomic) NSArray <Item *> *items;
 
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;
+- (NSDictionary *)jsonDictionary;
 
 @end

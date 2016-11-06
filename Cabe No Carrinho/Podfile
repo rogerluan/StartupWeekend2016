@@ -7,4 +7,5 @@ target 'Cabe No Carrinho' do
 
   # Pods for Cabe No Carrinho
   pod 'SVProgressHUD'
+  pod 'UIFloatLabelTextField'
 end

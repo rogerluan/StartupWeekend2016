@@ -8,12 +8,14 @@
 
 #import "OrderDetailsViewController.h"
 #import "OrderConfirmedViewController.h"
+#import "APIManager.h"
 
-@interface OrderDetailsViewController ()
+@interface OrderDetailsViewController () <UITextFieldDelegate>
 
 @property (strong, nonatomic) IBOutlet UITextField *addressTextField;
 @property (strong, nonatomic) IBOutlet UILabel *rewardLabel;
 @property (strong, nonatomic) IBOutlet UIDatePicker *datePicker;
+@property (strong, nonatomic) APIManager *APIManager;
 
 @end
 
@@ -21,7 +23,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.view addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self.view action:@selector(endEditing:)]];
     self.datePicker.minimumDate = [NSDate date];
+    self.APIManager = [APIManager new];
 }
 
 #pragma mark - IBAction -
@@ -31,12 +35,37 @@
 }
 
 - (IBAction)didRequestOrder:(UIButton *)sender {
-    if (NO) {
-        //to-do: validade fields
+    if (!self.addressTextField.hasText) {
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"Sem Endereço",nil) message:NSLocalizedString(@"Por favor informe o endereço que os produtos devem ser entregues.",nil) preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"OK", @"OK") style:UIAlertActionStyleCancel handler:nil];
+        [alert addAction:cancelAction];
+        [self presentViewController:alert animated:YES completion:nil];
         return;
     }
-    //to-do: update self.order;
-    [self performSegueWithIdentifier:@"RequestOrderSegueIdentifier" sender:self];
+    self.order.address = [self.addressTextField.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+    self.order.reward = self.rewardLabel.text.integerValue;
+    
+    [SVProgressHUD show];
+    [self.APIManager createOrder:self.order completion:^(NSError * _Nullable error) {
+        [SVProgressHUD dismiss];
+        if (!error) {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [self performSegueWithIdentifier:@"RequestOrderSegueIdentifier" sender:self];
+            });
+        } else {
+            NSLog(@"Failed with error: %@ WHEN creating order!", error);
+        }
+    }];
+}
+
+- (IBAction)dismissOrder:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+#pragma mark - UITextField Delegate -
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    return [self.view endEditing:YES];
 }
 
 #pragma mark - Navigation - 

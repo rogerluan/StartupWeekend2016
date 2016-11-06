@@ -14,6 +14,8 @@ static NSString * const BaseURLString = @"https://cabenocarrinho.herokuapp.com/"
 
 #pragma mark - Public Methods -
 
+#pragma mark - HTTP GET -
+
 - (void)fetchOrderListWithCompletion:(nonnull ListFetchCompletionBlock)completion {
     NSString *paramString = [NSString stringWithFormat:@"%@orders", BaseURLString];
     NSURL *url = [[NSURL alloc] initWithString:paramString];
@@ -37,7 +39,7 @@ static NSString * const BaseURLString = @"https://cabenocarrinho.herokuapp.com/"
 }
 
 - (void)fetchProductsListWithCompletion:(nonnull ListFetchCompletionBlock)completion {
-    NSString *paramString = [NSString stringWithFormat:@"%@", BaseURLString];
+    NSString *paramString = [NSString stringWithFormat:@"%@products", BaseURLString];
     NSURL *url = [[NSURL alloc] initWithString:paramString];
     
     NSURLSession *session = [NSURLSession sharedSession];
@@ -47,9 +49,9 @@ static NSString * const BaseURLString = @"https://cabenocarrinho.herokuapp.com/"
         if (error) {
             completion(error, nil);
         } else {
-            NSArray *recipes = [self productsFromJSON:data error:&error];
+            NSArray *products = [self productsFromJSON:data error:&error];
             if (!error) {
-                completion(nil, recipes);
+                completion(nil, products);
             } else {
                 completion(error, nil);
             }
@@ -73,7 +75,7 @@ static NSString * const BaseURLString = @"https://cabenocarrinho.herokuapp.com/"
 }
 
 - (void)fetchItemsFromOrder:(nonnull Order*)order withCompletion:(nonnull OrderItemsCompletionBlock)completion {
-    NSString *paramString = [NSString stringWithFormat:@"orders/%@", order.identifier];
+    NSString *paramString = [NSString stringWithFormat:@"products/%@", order.identifier];
     NSURL *url = [[NSURL alloc] initWithString:paramString];
     
     NSURLSession *session = [NSURLSession sharedSession];
@@ -99,6 +101,32 @@ static NSString * const BaseURLString = @"https://cabenocarrinho.herokuapp.com/"
     [task resume];
 }
 
+#pragma mark - HTTP POST
+
+- (void)createOrder:(nonnull Order *)order completion:(nonnull GenericCompletionBlock)completion {
+    NSURLSession *session = [NSURLSession sharedSession];
+    NSDictionary *dictionary = [order jsonDictionary];
+    NSData *postData = [NSJSONSerialization dataWithJSONObject:dictionary options:0 error:nil];
+    NSMutableURLRequest *request = [NSMutableURLRequest new];
+    NSString *urlString = [NSString stringWithFormat:@"%@orders", BaseURLString];
+    [request setURL:[NSURL URLWithString:urlString]];
+    [request setHTTPMethod:@"POST"];
+    [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+    [request setValue:@"POST" forHTTPHeaderField:@"application-type"];
+    [request setHTTPBody:postData];
+    
+    NSURLSessionDataTask *task = [session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+        NSHTTPURLResponse *httpResponse = (NSHTTPURLResponse *)response;
+        NSLog(@"%ld", (long)httpResponse.statusCode);
+        if (httpResponse.statusCode != 200) {
+            //create errors here
+        } else {
+            completion(nil);
+        }
+    }];
+    [task resume];
+}
+
 #pragma mark - Private Methods -
 
 - (NSArray *)ordersFromJSON:(NSData *)data error:(NSError **)error {
@@ -119,26 +147,27 @@ static NSString * const BaseURLString = @"https://cabenocarrinho.herokuapp.com/"
         [orders addObject:order];
     }
     
-    return orders;
+    return [orders copy];
 }
 
 - (NSArray *)productsFromJSON:(NSData *)data error:(NSError **)error {
     NSError *localError = nil;
-    NSDictionary *parsedObject = [NSJSONSerialization JSONObjectWithData:data options:0 error:&localError];
+    NSArray *parsedObject = [NSJSONSerialization JSONObjectWithData:data options:0 error:&localError];
+    
+    NSLog(@"parsed object: %@", parsedObject);
     
     if (localError != nil) {
         *error = localError;
         return nil;
     }
     
-    NSMutableArray *orders = [NSMutableArray new];
-    NSArray *results = [parsedObject valueForKey:@"products"];
+    NSMutableArray *products = [NSMutableArray new];
     
-    for (NSDictionary *recipeDictionary in results) {
-        Order *order = [[Order alloc] initWithDictionary:recipeDictionary];
-        [orders addObject:order];
+    for (NSDictionary *productsDictionary in parsedObject) {
+        Product *product = [[Product alloc] initWithDictionary:productsDictionary];
+        [products addObject:product];
     }
-    return orders;
+    return [products copy];
 }
 
 - (void)showNetworkActivityIndicator:(BOOL)show {

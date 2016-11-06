@@ -23,7 +23,7 @@
 - (void)setOrder:(Order *)order {
     _order = order;
 #warning bring default image here
-    self.orderImageView.image = [UIImage imageNamed:@"placeholder"];
+    self.orderImageView.image = [UIImage imageNamed:@"logo"];
     self.nameLabel.text = order.identifier;
     self.quantityLabel.text = [NSString stringWithFormat:@"%ld produtos", (long)order.items.count];
     double totalPrice = 0;
